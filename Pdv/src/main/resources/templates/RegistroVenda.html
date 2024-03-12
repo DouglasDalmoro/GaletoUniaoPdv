@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas</title>
+    <link rel="stylesheet" href="/css/registrovenda.css">
+</head>
+<body>
+<div class="header">
+    <form id="cliente-form" action="#" method="post">
+        <label for="cliente">Nome do Cliente:</label>
+        <input type="text" id="cliente" name="cliente" required>
+        <button type="submit" class="btn-cadastrar">Cadastrar</button>
+    </form>
+</div>
+<div class="container">
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome do Cliente</th>
+            <th>Valor Total</th>
+            <th>Ações</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Cliente A</td>
+            <td>R$ 150,00</td>
+            <td>
+                <button class="btn-editar">Editar</button>
+                <button class="btn-finalizar">Finalizar</button>
+                <button class="btn-excluir">Excluir Venda</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Cliente B</td>
+            <td>R$ 200,00</td>
+            <td>
+                <button class="btn-editar">Editar</button>
+                <button class="btn-finalizar">Finalizar</button>
+                <button class="btn-excluir">Excluir Venda</button>
+            </td>
+        </tr>
+        <!-- Adicione mais linhas conforme necessário -->
+        </tbody>
+    </table>
+</div>
+<a href="pagina.html" class="btn-voltar">Voltar</a>
+</body>
+</html>
